@@ -1,0 +1,171 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier
+FamilyName:Courier
+StyleName:Regular
+MenuName:Courier
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Courier
+WritingScript:Roman
+OutlineFileName:\Courier.dfont
+DataFormat:sfntResource
+ResourceID:24011
+hasSVG:no
+FileLength:1646421
+FileModTime:1440291470
+NameArray:0,Mac,4,Courier
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier-Bold
+FamilyName:Courier
+StyleName:Bold
+MenuName:Courier
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Courier Bold
+WritingScript:Roman
+OutlineFileName:\Courier.dfont
+DataFormat:sfntResource
+ResourceID:27224
+hasSVG:no
+FileLength:1646421
+FileModTime:1440291470
+NameArray:0,Mac,4,Courier Bold
+NameArray:0,Mac,4,Courier Gras
+NameArray:0,Mac,4,Courier Fett
+NameArray:0,Mac,4,Courier grassetto
+NameArray:0,Mac,4,Courier vet
+NameArray:0,Mac,4,Courier Fet
+NameArray:0,Mac,4,Courier Negrita
+NameArray:0,Mac,4,Courier Carregado
+NameArray:0,Mac,4,Courier Halvfet
+NameArray:0,Mac,4,Courier lihava
+NameArray:4,Mac,4,Courier‭ ‬أسود
+NameArray:4,Mac,4,Courier‭ ‬برجسته
+NameArray:5,Mac,4,Courier‭ ‬עבה
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier-Oblique
+FamilyName:Courier
+StyleName:Oblique
+MenuName:Courier
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Courier Oblique
+WritingScript:Roman
+OutlineFileName:\Courier.dfont
+DataFormat:sfntResource
+ResourceID:12456
+hasSVG:no
+FileLength:1646421
+FileModTime:1440291470
+NameArray:0,Mac,18,Courier Oblique
+NameArray:0,Mac,4,Courier Oblique
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier-BoldOblique
+FamilyName:Courier
+StyleName:Bold Oblique
+MenuName:Courier
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Courier Bold Oblique
+WritingScript:Roman
+OutlineFileName:\Courier.dfont
+DataFormat:sfntResource
+ResourceID:28062
+hasSVG:no
+FileLength:1646421
+FileModTime:1440291470
+NameArray:0,Mac,18,Courier Bold Oblique
+NameArray:0,Mac,4,Courier Bold Oblique
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Courier
+OutlineFileName:\Courier.dfont
+ResourceID:22
+MacStyle:0
+FileLength:1646421
+FileModTime:1440291470
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Courier-Bold
+OutlineFileName:\Courier.dfont
+ResourceID:22
+MacStyle:1
+FileLength:1646421
+FileModTime:1440291470
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Courier-Oblique
+OutlineFileName:\Courier.dfont
+ResourceID:22
+MacStyle:2
+FileLength:1646421
+FileModTime:1440291470
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Courier-BoldOblique
+OutlineFileName:\Courier.dfont
+ResourceID:22
+MacStyle:3
+FileLength:1646421
+FileModTime:1440291470
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LiberationMono
+FamilyName:Liberation Mono
+StyleName:Regular
+MenuName:Liberation Mono
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Liberation Mono
+WritingScript:Roman
+OutlineFileName:\LiberationMono-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:313408
+FileModTime:1520541754
+NameArray:0,Mac,4,Liberation Mono
+NameArray:0,Win,1,Liberation Mono
+%EndFont
+

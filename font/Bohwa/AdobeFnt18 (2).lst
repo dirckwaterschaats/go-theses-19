@@ -1,0 +1,149 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AgmenaPro-Book
+FamilyName:Agmena Pro
+StyleName:Book
+MenuName:Agmena Pro Book
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Agmena Pro Book
+WritingScript:Roman
+OutlineFileName:\Agmena Pro Book.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:229024
+FileModTime:1468832998
+NameArray:0,Mac,18,Agmena Pro Book
+NameArray:0,Mac,4,Agmena Pro Book
+NameArray:0,Win,1,Agmena Pro Book
+NameArray:0,Win,16,Agmena Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Bembo
+FamilyName:Bembo
+StyleName:Regular
+MenuName:Bembo
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bembo
+WritingScript:Roman
+OutlineFileName:\Bembo
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+FileLength:32219
+FileModTime:899704624
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-Italic
+OutlineFileName:\Bembo 1
+ResourceID:15031
+MacStyle:0
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-BoldItalic
+OutlineFileName:\Bembo 1
+ResourceID:15031
+MacStyle:1
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-BoldItalic
+OutlineFileName:\Bembo 1
+ResourceID:15029
+MacStyle:0
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-Bold
+OutlineFileName:\Bembo 1
+ResourceID:15030
+MacStyle:0
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-BoldItalic
+OutlineFileName:\Bembo 1
+ResourceID:15030
+MacStyle:2
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo
+OutlineFileName:\Bembo 1
+ResourceID:15032
+MacStyle:0
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-Bold
+OutlineFileName:\Bembo 1
+ResourceID:15032
+MacStyle:1
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-Italic
+OutlineFileName:\Bembo 1
+ResourceID:15032
+MacStyle:2
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Bembo-BoldItalic
+OutlineFileName:\Bembo 1
+ResourceID:15032
+MacStyle:3
+FileLength:115223
+FileModTime:899704624
+%EndFont
+
