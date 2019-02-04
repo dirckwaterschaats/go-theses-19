@@ -22,61 +22,76 @@ margin: auto;
 .row {
 	width: 100%;
 display: flex;
-
+font-family:Verdana,sans-serif;
 flex-direction:row nowrap;
 justify-content:center;
 /*justify-content:space-around;*/
-margin: 0;
-/*align-items: stretch;*/
-align-content:center;
-	
-}
+/*margin-top: 8;
+*//*align-items: stretch;*/
+align-content: center;	
+font-family:Verdana,sans-serif;
+   font-size: 1.7em;
+    line-height: 70px;
+        font-weight: bold;
+ }
 
 
 /* Create three equal columns that floats next to each other */
 .column1 {
+ /* border-collapse: collapse;
+    border-spacing: 0;*/
 /*background-color: red;
 */margin-left: 10px; 
-padding: 5px;
-flex: 1 1 0px;
+/*padding: 5px;
+*/flex: 1 1 0px;
 flex-grow:1;
 white-space: nowrap;
 min-width: 230px;
 cursor: pointer;
-  
+ 
 }
 
 .column2 {
 /*	background-color: blue;
+
 */	margin-left: 10px; 
-padding: 5px;
-	flex: 1 1 0px;
+/*padding: 5px;
+*/	flex: 1 1 0px;
 	overflow: hidden;
 	flex-grow:3;
+  
 }
 .column3 {
 /*	background-color: yellow;
 */	margin-left: 10px; 
-  padding: 5px;
-	flex: 1 1 0px;
+/*  padding: 5px;
+*/	flex: 1 1 0px;
 	flex-grow:1;
+      
+ /* border-collapse: collapse;
+    border-spacing: 0;*/
 }
 
 p {
-	font-size: 1.2em;
-	/*white-space: nowrap;*/
+font-size: 0em;
+white-space: nowrap;
+
+
 }
 
 .cropImg { 
 	position: absolute;
-	overflow: hidden;
-	flex:1 0 auto;
-visibility: visible;
+	/*overflow: hidden;*/
+/*	flex:1 0 auto;
+*/visibility: visible;
   z-index: -1;
-  /*align-self: stretch;*/
-  object-fit:cover;
-  /*width: 100%;*/
-  /*height:10vh;*/
+/*  align-self: stretch;
+*/ 
+  width: 100%;
+  height:70px;
+
+
+
 }
 
 .abstract{
@@ -85,10 +100,19 @@ position: relative;
 /*margin-left: 5%;*/
 width: 100%;
 height: auto;
+    font-size: 1em;
+    line-height: 1.5;
+
+    
 /*background-color: black;*/
 
 }
 
+/*.content {
+  margin-top: 2%;
+  max-width: 50%;
+  max-height: 50%;
+}*/
 
 .row:hover .cropImg {
 	/*visibility: hidden;*/
@@ -97,29 +121,30 @@ div[class^='column'] {
   margin-left: 0;
   padding-left: 10px;
   background: #f0f;
+
 }
 .row:not(.opened) div[class^='column'] { 
   margin-left: 0;
   padding-left: 10px;
   background: #f0f; 
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 7s;
   z-index: +1;
 }
 
 .row:not(.opened) div[class^='hide'] { 
   opacity: 0;
-  /*transition: opacity 2s;*/
+  transition: opacity 0.5s;
   z-index: +1;
 }
 
 .row:not(.opened):hover div[class^='column'] { 
   transition: opacity 1s;
-  opacity: 1;
+  opacity: 2;
 }
-.row.opened div[class^='column'] { opacity: 1 }
+.row.opened div[class^='column'] { opacity: 1; }
 
-.row.opened div[class^='hide'] { opacity: 1 }
+.row.opened div[class^='hide'] { opacity: 1; transition: opacity 0.5s; }
 
 
 @-webkit-keyframes ticker {
@@ -153,7 +178,7 @@ div[class^='column'] {
 
 /*https://codepen.io/anon/pen/KbJKOz
 */
- .rating {
+ /*.rating {
     width: 200px;
     font-size: 1.2em;
     overflow:hidden;
@@ -205,7 +230,7 @@ div[class^='column'] {
     .rating41 a {
       float:none;
     }
-
+*/
 
 
 @font-face{
@@ -371,16 +396,13 @@ div[class^='column'] {
   src: url('font/Jonathan/FreeSerif.otf') format('opentype');
 }
 @font-face{
-  font-family: 'VG5000-Regular';
+  font-family: 'VG5000-Regular.otf';
   src: url('font/Rossi/VG5000-Regular.otf') format('opentype');
 }
 
-@font-face{
-  font-family: 'TheUnpronounceableAcademy-WhatsRegularAnyway';
-  src: url('font/Esther/TheUnpronounceableAcademy-WhatsRegularAnyway.ttf') format('truetype');
-}
 
-.font1{
+
+/*.font1{
 	font-family: 'Comic Sans MS';
   font-size: 24.2pt;
   line-height: 0;
@@ -389,211 +411,206 @@ div[class^='column'] {
 .font2{
   font-family: 'neue';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font3{
   font-family: 'Ogg-Roman';
-  font-size: 14.5pt;
+  font-size: 18.5pt;
 }
 
 .font4{
   font-family: 'LydianCursiveBT-Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font5{
   font-family: 'Baskerville';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font6{
   font-family: 'Monospace-821-BT';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font7{
   font-family: 'GintoNord-Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font8{
   font-family: 'Blimey-0.1-900';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font9{
   font-family: 'ElBodoni-Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font10{
   font-family: 'Rando-glitch-Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font11{
   font-family: 'girott_regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font12{
   font-family: 'Oroban-Masuria';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font13{
   font-family: 'DIN1451';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font14{
   font-family: 'GeForce-Bold';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 
 }
 .font15{
   font-family: 'FreeSerif';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font16{
   font-family: 'AT Apoc';
-  font-size: 24.5pt;
-  line-height: 0;
+  font-size: 25pt;
+  line-height: 0.5;
 }
 .font17{
   font-family: serif;
-  font-size: 24.5pt;
-  line-height: 0;
+  font-size: 25pt;
+  line-height: 0.5;
 }
 .font18{
   font-family: 'ActaDeck-Book';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font19{
   font-family: 'Garamond';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font20{
   font-family: 'Px Grotesk Light';
-  font-size: 23pt;
-  line-height: 0;
+  font-size: 25pt;
+  line-height: 0.5;
 }
 .font21{
   font-family: 'Arial';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font22{
   font-family: 'TrumpMediaevalLTStd-Roman';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font23{
   font-family: 's';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font24{
   font-family: 'AntiqueOliveStd-Bold';
   font-size: 24.2pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font25{
   font-family: 'IBMPlexMono-Medium';
   font-size: 19pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font26{
   font-family: 'Aleo-Regular';
   font-size: 24.2pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font27{
   font-family: 'FanwoodText-Regular';
  font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font28{
   font-family: 'GrotesqueMTStd-Bold';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font29{
   font-family: 'CenturySchoolbookBT-Roman';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
-
-.unpronounceableSymbol {
-  font-family: 'TheUnpronounceableAcademy-WhatsRegularAnyway';
-}
-
 .font30{
   font-family: 'Bradley Hand Bold';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font31{
   font-family: 'VG5000-Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font32{
   font-family: 'Microsoft Sans Serif';
   font-size: 24.2pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font33{
   font-family: 'InknutAntiqua-Light';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font34{
   font-family: 'Granby Elephant BQ Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font35{
   font-family: 'VG5000-Regular_web(1).otf';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font36{
   font-family: 'Courier 10 Pitch Regular';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font37{
   font-family: 'PTSerif';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font38{
   font-family: 'Satyr-Regular';
   font-size: 25.5pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font39{
   font-family: 'LibreBaskerville-Regular';
   font-size: 23pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 .font40{
   font-family: 'BigCaslon';
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font41{
@@ -601,14 +618,14 @@ div[class^='column'] {
   font-weight: 400;
   font-style: normal;
   font-size: 25pt;
-  line-height: 0;
+  line-height: 0.5;
 }
 
 .font42{
   font-family: 'PalatinoLTStd-Roman';
-  font-size: 24.5pt;
-  line-height: 0;
-}
+  font-size: 25pt;
+  line-height: 0.5;
+}*/
 
 #scaleabs {
   font-size: 1.75vw;
@@ -642,3 +659,35 @@ div[class^='column'] {
 .popup img {
   width: 100%;
 }
+
+
+::selection {
+  color:#FFEFD5; background: transparent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color:#FFEFD5; background: transparent; /* Gecko Browsers */
+}
+
+
+.lol {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+   /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
+.lol img{
+width: auto;
+height: 120px;
+
+}
+
+
+
